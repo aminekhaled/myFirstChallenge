@@ -16,7 +16,6 @@ body {
   top: 51.5%;
   left: 50%;
   transform: translate(-50%, -50%);
-  border-radius: 7px;
 }
 .row {
   width: 33.3333%;
@@ -26,9 +25,9 @@ body {
 .row h2 {
   font-family: 'Big Shoulders Display', cursive;
   color: #f2f2f2;
-  font-size: 38px;
-  margin-bottom: 30px;
-  letter-spacing: 0.3px;
+  font-size: 39.5px;
+  margin-bottom: 27px;
+  letter-spacing: 0.1px;
 }
 .row p {
   width: 210px;
@@ -40,8 +39,8 @@ body {
   letter-spacing: 0.5px;
 }
 .row button {
-  margin-top: 70px;
-  padding: 13px 27px;
+  margin-top: 82px;
+  padding: 12px 14%;
   font-size: 15px;
   font-family: 'Lexend Deca', sans-serif;
   color: #f2f2f2cc;
@@ -50,14 +49,14 @@ body {
   border: 2.5px solid #f2f2f2;
 }
 svg {
-  margin:0 0 34px -3px;
+  margin:0 0 31px 0;
 }
-.row:nth-child(1) {border-radius: 6px 0 0 6px;}
-.row:nth-child(3) {border-radius: 0 6px 6px 0;}
+.row:nth-child(1) {border-radius: 8px 0 0 8px;}
+.row:nth-child(3) {border-radius: 0 8px 8px 0;}
 
 /* background-color of rows */
-.row:nth-child(1) {background-color:hsl(31, 77%, 52%) }
-.row:nth-child(2) {background-color: hsl(184, 100%, 22%)}
-.row:nth-child(3) {background-color: hsl(179, 100%, 13%)}
+.row:nth-child(1) {background-color:#e38826 }
+.row:nth-child(2) {background-color: #006970}
+.row:nth-child(3) {background-color: #004241}
 
 
