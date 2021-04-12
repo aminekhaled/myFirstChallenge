@@ -17,6 +17,11 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+@media screen and (max-width: 920px) {
+  #container {
+    min-width: 80%;
+  }
+}
 .row {
   width: 33.3333%;
   height: 100%;
@@ -30,7 +35,7 @@ body {
   letter-spacing: 0.1px;
 }
 .row p {
-  width: 210px;
+  width: 100%;
   font-size: 14px;
   font-family: 'Lexend Deca', sans-serif;
   color: #f2f2f2cc;
