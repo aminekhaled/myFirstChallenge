@@ -16,11 +16,7 @@ body {
   top: 51.5%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-@media screen and (max-width: 920px) {
-  #container {
-    min-width: 80%;
-  }
+  transition: 0.3s;
 }
 .row {
   width: 33.3333%;
@@ -63,5 +59,63 @@ svg {
 .row:nth-child(1) {background-color:#e38826 }
 .row:nth-child(2) {background-color: #006970}
 .row:nth-child(3) {background-color: #004241}
+
+@media screen and (max-width: 1315px) {
+
+  #container {
+    width: 75%;
+  }
+
+}
+@media screen and (max-width: 1040px) {
+
+  #container {
+    width: 88%;
+  }
+
+}
+@media screen and (max-width: 820px) {
+
+  #container {
+    height: 560px;
+  }
+
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    height: 1502px;
+  }
+  #container {
+    min-width: 87.2%;
+    height: 1326px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 98%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.3s;
+    margin-bottom: 50px;
+  }
+  .row {
+    width: 100%;
+    height: 442px;
+  }
+  .row:nth-child(1) {border-radius: 8px 8px 0 0;}
+  .row:nth-child(3) {border-radius: 0 0 8px 8px;}
+  .row:nth-child(1) button {color: #e38826;}
+  .row:nth-child(2) button {color: #006970;}
+  .row:nth-child(3) button {color: #004241;}
+  .row p {
+    width: 103%;
+  }
+  .row button {
+    margin-top: 24px;
+    padding: 12px 13%;
+    background-color: white;
+  }
+}
+
 
 
