@@ -16,7 +16,6 @@ body {
   top: 51.5%;
   left: 50%;
   transform: translate(-50%, -50%);
-  transition: 0.3s;
 }
 .row {
   width: 33.3333%;
