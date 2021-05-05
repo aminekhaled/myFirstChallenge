@@ -13,7 +13,7 @@ body {
   height: 500px;
   display: flex;
   position: absolute;
-  top: 48.5%;
+  top: 52%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
