@@ -13,10 +13,9 @@ body {
   height: 500px;
   display: flex;
   position: absolute;
-  top: 51.5%;
+  top: 52.3%;
   left: 50%;
   transform: translate(-50%, -50%);
-  transition: 0.3s;
 }
 .row {
   width: 33.3333%;
@@ -51,6 +50,10 @@ body {
 .row .btn1 { color: #e38826 }
 .row .btn2 { color: #006970 }
 .row .btn3 { color: #004241 }
+
+.row button:nth-child(1){ color:#e38826 }
+.row button:nth-child(2){ color:#006970 }
+.row button:nth-child(3){ color:#004241 }
 svg {
   margin:0 0 31px 0;
 }
@@ -97,7 +100,6 @@ svg {
     top: 98%;
     left: 50%;
     transform: translate(-50%, -50%);
-    transition: 0.3s;
     margin-bottom: 50px;
   }
   .row {
